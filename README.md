@@ -1,8 +1,10 @@
-# Getting Started with Create React App
-
-## Demo Site
+# Demo Site
 
 The demo site for this project is hosted at: https://preeminent-toffee-04f92f.netlify.app/
+
+# Boilerplate
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
