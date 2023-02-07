@@ -1,6 +1,6 @@
 # Demo Site
 
-The demo site for this project is hosted at: https://preeminent-toffee-04f92f.netlify.app/
+The demo site for this project is hosted at: https://demo-portfolio-web-app.netlify.app/
 
 # Boilerplate
 
