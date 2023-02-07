@@ -1,0 +1,127 @@
+.mask{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.intro-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    /* object-fit: cover; */
+}
+
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.btn1{
+    background: rgb(248, 217, 15);
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.btn-light{
+    background: transparent;
+    color: white;
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+     border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn1:hover{
+     background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+}
+
+.hero .content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.hero .content h1{
+    font-size: 4rem;
+    color: white;
+    padding: 0.6rem 0 1.5rem;
+}
+
+
+.hero .content p{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 300;
+}
+
+.content .btn1{
+    margin: 1rem 0.2rem;
+}
+
+@media screen and (max-width:640px) {
+    .hero .content h1{
+    font-size: 3rem;
+}
+
+
+.hero .content p{
+    font-size: 1.4rem;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* .btn {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgb(248, 217, 15);
+    color: #222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-light {
+    background: transparent;
+    color: #fff;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+} */

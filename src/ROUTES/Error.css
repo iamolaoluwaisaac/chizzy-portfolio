@@ -1,0 +1,14 @@
+.link{
+    background: grey;
+    border: 3px solid rgb(231, 222, 222);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.link:hover{
+    color: black;
+    /* transition: 1s ease-in-out; */
+    background: white;
+}

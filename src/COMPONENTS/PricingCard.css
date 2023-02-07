@@ -1,0 +1,60 @@
+.pricing{
+    width: 100%;
+    padding: 6rem 1rem;
+}
+
+.card-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.card-1:hover{
+    transform: scale(1.10);
+    transition: 0.5s ease-out;
+}
+
+.card-1{
+    border: 3px solid white;
+    text-align: center;
+    padding: 1rem;
+    margin-right: 30px;
+}
+
+.btn-1{
+        background: rgb(248, 217, 15);
+            padding: 12px 32px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            color: #222;
+            border: 1px solid #fff;
+            font-weight: 600;
+            cursor: pointer;
+            /* width: 15vw; */
+}
+
+.bar{
+    border-bottom: 1px solid white;
+    width: 10%;
+    display: block;
+    margin: 1.5rem auto;
+}
+
+.btc{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+
+
+@media screen and (max-width:740px) {
+    .card-container {
+            max-width: 90%;
+            margin: auto;
+            /* display: grid; */
+            grid-template-columns: 1fr;
+        }
+
+}
